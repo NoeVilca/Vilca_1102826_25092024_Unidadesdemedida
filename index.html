@@ -1,0 +1,372 @@
+
+<html>
+<head>
+<title>Cantina Chichilo de Buenos Aires</title>
+<meta name="keywords" content="cantina chichilo,restaurante en argentina,cantina en buenos aires,comida informal,fusiles,TIRAMISU,CARACOLES,RANAS,CORDERO PATAGONICO,BROCOLIS,ARROZ CON LECHE,MEJILLONES,MONDONGO,RABAS,GAMBAS,LENTEJAS">
+<meta name="description" content="Somos una cantina establecida en Buenos Aires por 62 aÃ±os">
+<meta content="none" name="Microsoft Border">
+<style type="text/css">
+/*noe edit*/
+body{
+    background-color: #DECDD2;
+    font-family: "Arial Black";
+}
+/*noe edit*/
+.auto-style1 {
+	font-size: 1.5rem;
+	color: #330211;
+}
+.auto-style3 {
+	font-size: large;
+	color: #330211;
+}
+.auto-style4 {
+	border-style: solid;
+	border-width: 2px;
+}
+.auto-style5 {
+	color: #330211;
+}
+.auto-style6 {
+	font-size: x-large;
+	color: #330211;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.auto-style7 {
+	border-width: 0px;
+}
+.auto-style8 {
+	font-size: large;
+}
+.auto-style9 {
+	font-size: large;
+	font-weight: bold;
+}
+.auto-style10 {
+	font-size: 2rem;
+	color: #894B5D;
+	text-decoration: underline;
+}
+.auto-style11 {
+	font-size: x-large;
+	color: #894B5D;
+}
+.auto-style12 {
+	font-size: large;
+	color: #894B5D;
+}
+.auto-style13 {
+	color: #330211;
+	font-size: 1.5rem;
+}
+.auto-style14 {
+	color: #894B5D;
+	
+	font-weight: bold;
+}
+.auto-style18 {
+	font-size: large;
+	color: #330211;
+	text-align: left;
+}
+.auto-style20 {
+	color: #894B5D;
+}
+.auto-style21 {
+	font-size: 1.5rem;
+	color: #340B17;
+}
+.auto-style24 {
+	font-size: xx-large;
+	color: #5E2435;
+	text-decoration: underline;
+	text-align: center;
+}
+.auto-style25 {
+	color: #5E2435;
+	font-size: 1.5rem;
+}
+.auto-style26 {
+	color: #330211;
+	font-size: 2rem;
+}
+.auto-style27 {
+	font-size: 1rem;
+	color: #330211;
+}
+.auto-style28 {
+	color: #340B17;
+	font-size: 1rem;
+}
+.auto-style29 {
+	font-size: 1rem;
+	color: #330211;
+}
+.auto-style30 {
+	color: #330211;
+	font-size: 2rem;
+}
+.auto-style31 {
+	color: #330211;
+	font-size: 1.5rem;
+}
+.auto-style32 {
+	color: #5E2435;
+	font-size: 1.5rem;
+}
+
+/* Navbar */
+nav{
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: space-between;
+}
+
+.navbar-collapse{
+  margin-top: 40px;
+  margin-inline-end: 100px;
+}
+
+.text-display{
+  font-size: 1.5rem;
+  color: #340B17;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  margin-inline-start: 100px;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+  filter: brightness(110%);
+  transition: 0.5s;
+}
+
+#menu {                        /*no muestra el botón de menu */
+  display: none;     
+}
+
+label {                       /*no muestra la etiqueta ☰ */
+  display:none;
+}
+
+li:hover {                        /*determina la propiedad de cada botón cuando se posiciona encima*/
+  filter: brightness(110%);
+  transition: 0.5s;
+}
+
+ul{                     
+  display: flex;
+  justify-content: left;
+  margin-top:0;
+  padding: 0;
+}
+
+li {                   
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  width: 100px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #B37F8E;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/*End Navbar*/
+  
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover {                        /*determina la propiedad de cada botón cuando se posiciona encima*/
+    filter: brightness(110%);
+}
+
+.text{
+    display: block;
+    margin-left: 15%;
+    padding-bottom: 2%;
+    width: 70%;
+    background-color: #B37F8E;
+}
+
+.horario{
+    margin: 1%;
+    text-align: center;
+}
+
+.auto-style12, .auto-style18, .espe, .auto-style15{
+    text-align: center;
+    margin: 2%;
+}
+
+.fotos{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media all and (max-width: 1220px) {  /*cuando el dispositivo es como máximo de 992x*/
+  footer, header, main, section {
+    display: block; 
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-collapse{
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  input:checked  ~ ul{   /*muestra todas el contenido de todas las etiquetas ul */
+    display: block;
+  }
+  input:checked ~ label{   /*muestra todo el contenido de todas las etiquetas label */
+    background: lightgrey; 
+  }
+  label:hover{                /*cambia el color de ☰ */
+    background: #894B5D;
+  }
+  li{                         /*elimina el margen  de cada botón */
+       margin: 0px;
+       text-align: left;
+   }
+  label{                      /* dibuja la etiqueta ☰  con formato botón */
+     box-sizing: border-box;
+     display: block;
+     border: 1px solid black;
+     border-radius: 5px;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     font-weight: bold;
+     text-align: center;
+     user-select: none;
+     background-color: #B37F8E;
+  }
+  ul{                          /*deja de mostrar el bloque contenedor de los botones horizontales */
+     display: none;
+  }
+  .text-display{
+    margin-inline-start: 20px;
+  }
+}
+</style>
+<!-- Noe Edit -->
+</head>
+<!-- Noe Edit -->
+<body leftmargin="0" topmargin="0" alink="#B37F8E" bgcolor="#B37F8E" link="#B37F8E" marginheight="0" marginwidth="0" text="#000000" vlink="#008080">
+    <nav>
+        <a href="index.html" class="navbar-brand">
+            <h1 class="text-display"><span>CANTINA CHICHILO DE BUENOS AIRES</span></h1>
+        </a>
+        <div class="navbar-collapse">
+            <div class="navbar-nav">
+                <input type="checkbox" id="menu">  
+                <label for="menu"> ☰ </label>
+                <ul>
+                    <li><a href="index.html" class="auto-style29">Home</a></li>
+                    <li><a href="#carta" class="auto-style29">Menu</a></li>
+                    <li><a href="#testi" class="auto-style29">Testimonios</a></li>
+                    <li><a href="#foto" class="auto-style29">Fotos</a></li>
+                    <li><a href="#contact" class="auto-style29">Contacto</a></li>
+                </ul>                
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <section id="carta">
+        <div class="text">
+            <div class="carta">
+                <br>
+                <h2 class="espe">ESPECIALIDADES</h2>
+                <p class="auto-style12">QUINOTOS CASEROS AL RHUM, CON HELADO</P>
+                <p class="auto-style18">LENTEJAS A CABALLO</p>				 
+                <p class="auto-style12">PASTA CON CHICHIRI-CECI</p>
+                <p class="auto-style18">MONDONGO A LA ITALIANA</p>				 
+                <p class="auto-style12">RINONES AL VINO BLANCO</p>
+                <p class="auto-style18">CALAMARETTIS A LA ESCARPETTA-</p>
+                <p class="auto-style12">FUSILES AL FERRETTO</p>
+                <p class="auto-style18">RANAS A LA PROVENZAL</p>
+                <p class="auto-style12">CARACOLES A LA BORDALEZA</p>
+                <p class="auto-style18">RABAS A LA CALABRIA</p>
+                <p class="auto-style12">MERLUZA AL AJILLO</p>
+                <p class="auto-style18">GAMBAS AL AJILLO</p>
+                <br>
+                <h2 class="espe">POSTRES</h2>
+                <p class="auto-style12">TIRAMISU CALABRES</p>
+                <p class="auto-style18">POSTRE CHICHOLINA</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonio" id="testi">
+        <div class="text">
+            <p class="auto-style15">UNA FAMILIA PARA SERVIRLO</p>
+            <p class="auto-style15">PREMIOS CLARIN Y MARTIN FIERRO 2005</p>
+            <p class="auto-style15">LA ELEGIDA POR POL-KA PARA LAS MEJORES PRODUCCIONES</p>
+            <p class="auto-style15">EL SODERO DE MI VIDA - ILUSIONES - MUJERES ASESINAS</p>
+            <p class="auto-style15">
+                CANTINA CHICHILO DE BUENOS AIRES DESDE HACE 65 AÑOS AL SERVICIO DEL BUEN COMER ATENDIDOS POR SUS DUEÑOS EN UN BARRIO DE FAMOSOS "LA PATERNAL". 
+                ADEMAS LA PRODUCION DE POL-KA LA ELIGIO PARA LA APERTURA DE LA NOVELA ILUSIONES Y EL SODERO DE MI VIDA, ADEMAS ES EL LUGAR PREFERIDO DE DIEGO MARADONA.
+            </p>
+            <p align="center"><b><font face="Arial" size="4" color="#330211">SOMOS LOS VERDADEROS....!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOS DEMAS NOS IMITAN.....!</font></b></p>
+            <p align="center"><b><font face="Arial" color="#340B17" size="6"><blink><u><span style="text-decoration: overline">*1956-2021*</span></u></blink></font></b>
+                <br><img border="2" src="img/50_ANOS_small1.jpg" alt="50 Aï¿½OS.jpg (27360 bytes)" width="100" height="66">
+            </p>
+        </div>
+    </section>
+    <section class="fotos" id="foto">
+        <div class="justify-content-center">
+            <h2 class="espe">FOTOS</h2>
+            <img border="2" src="img/agustin.jpg" alt="agustin.jpg (157046 bytes)" width="250" height="250">
+            <img border="2" src="img/DSC03004_small2.JPG" alt="DSC03004.JPG (157046 bytes)" width="250" height="250">
+            <img alt="" class="auto-style4" height="250" src="img/20181201_204639_small.jpg" width="250" xthumbnail-orig-image="img/20181201_204639.jpg">
+            <img border="2" src="img/MOSTRADOR_CON_LA_PICADA_ITALIANA-2014_small.jpg" alt="MOSTRADOR CON LA PICADA ITALIANA-2014.jpg (329223 bytes)" width="250" height="250">
+            <img border="2" src="img/MOSTRADOR_CON_LA_PICADA_ITALIANA013_small.jpg" alt="MOSTRADOR CON LA PICADA ITALIANA013.jpg (336691 bytes)" width="250" height="250">
+            <img border="2" src="img/MOSTRADOR_CON_LA_PICADA_ITALIANA-3015_small.jpg" alt="MOSTRADOR CON LA PICADA ITALIANA-3015.jpg (411233 bytes)" width="250" height="250">
+            <img alt="" height="250" src="img/DSC00731_small1.JPG" width="250" class="auto-style7">
+            <img alt="LA PAELLA DE CHICHILO" height="250" src="img/IMG_20180922_111203_459.jpg" width="250" class="auto-style7">
+            <img alt="NUESTROS SORRENTINOS CASEROS DE MUZARELLA Y JAMON" height="250" src="img/IMG_20181013_130822_125.jpg" width="250" class="auto-style7">
+            <img alt="AMASANDO LOS FUSILES AL FIERRITO" height="250" src="img/IMG_20190104_144457_299.jpg" width="250" class="auto-style7">
+            <img alt="RANAS A LA PROVENZAL DE CHICHILO" height="250" src="img/IMG_20190113_213622_185.jpg" width="250" class="auto-style7">
+            <img alt="KINOTOS EN ALMIBAR CASEROS" class="auto-style7" height="250" src="img/IMG_20181012_235206_339.jpg" width="250">
+            <img alt="NUESTRAS ENTRADAS CASERAS ITALIANA" height="250" src="img/IMG_20181201_205117_779.jpg" width="250" class="auto-style7">
+            <img alt="POSTRE MATEO" height="250" src="img/FOTO%20DE%20POSTRE%20MATEO_small.jpg" width="250" class="auto-style7">
+            <img alt="POSTRE CHICHOLINA" height="250" src="img/CHICHOLINA%20POSTRE.jpg" width="250" class="auto-style7">
+            <img alt="EL FLAN CASERO MIXTO DE PURO HUEVO" height="250" src="img/IMG_20190112_130206_551.jpg" width="250" class="auto-style7">
+            <img alt="CEREZAS FLAMBE CON HELADO DE AMERICANA" class="auto-style7" height="250" src="img/IMG_20180127_145453_519.jpg" width="250">
+        </div>     
+    </section>   
+</body>
+<!-- Noe Edit -->
+<hr>
+<!-- Noe Edit -->
+    <footer>
+        <div id="contact">
+            <div class="justify-content-center">
+                <div class="horario">
+                    <p class="auto-style29">ABIERTO DE JUEVES A SABADOS DE NOCHE- SABADOS Y DOMINGOS ALMUERZOS</p>
+                    <p class="auto-style29">HORARIO CENA: 20.30 A 23.30 HRS.</p>
+                    <p class="auto-style29">HORARIO ALMUERZO: 12.30 A 14.30 HRS.</p>
+                    <p class="auto-style29">CAMARONES 1901- CABA - @cantinachichilook</p>
+                    <p class="auto-style29">cantinachichilo@cantinachichilo.com.ar </p>
+				    <p class="auto-style29">054-011-4584-1263</p>
+				    <p class="auto-style29">1150200152</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </footer>
+ <!-- Noe Edit -->
+</body>
+
+</html>
